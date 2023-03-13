@@ -1,0 +1,22 @@
+html,
+body {
+  height: 100%;
+}
+
+#no-profile {
+  display: none;
+}
+
+#profile-exist {
+  display: none;
+}
+#profile-exist-1 {
+  display: none;
+}
+#edit-profile-heading {
+  display: none;
+}
+
+#edit-profile-btn {
+  display: none;
+}

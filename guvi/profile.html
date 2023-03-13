@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script type="text/javascript" async src="js/profile.js"></script>
+
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+    crossorigin="anonymous"
+  />
+  </head>
+  <body>
+    <div id='profile-exist' >
+      <h1>Your profile data </h1> 
+      <h1 id='profile-username'></h1>
+      
+       
+       <ul  >
+       </div>
+    <div id='no-profile'>
+      <h1 id='create-profile-username'></h1>
+    <h1 id='create-profile-heading'>Create profile</h1>
+   <h1 id='edit-profile-heading' >Edit your profile </h1>
+    <form autocomplete="off" action="" method="post">
+      <label for="">Hobbies</label>
+      <input type="text"    id="hobbies" value="" /> <br />
+      <label for="">Age</label>
+      <input type="number" id="age" value="" /> <br />
+      <label for="">Contact</label>
+      <input type="text" id="contact" value="" /> <br />
+      <label for="">DOB</label>
+      <input type="date" id="dob" value="" /> <br />
+      <input type="button" value="Create profile" onclick="createProfile()" id='create-profile-btn'/>
+  
+      <input type="button" class="btn btn-success" value="Save profile" onclick="editProfile()" id='edit-profile-btn'/>
+      <input type="button" value="Logout" onclick="logout()" class="btn btn-danger"/>
+   
+    </form>
+    </div>
+  
+  
+<div id='profile-exist-1'>
+    <input type="button" value="Edit my profile" id='edit-my-profile'onclick="enableEdit()" class="btn btn-success"/>
+  <input type="button" value="Logout" id='logout-2' onclick="logout()" class="btn btn-danger"/>
+  <div>
+  </body>
+</html>
